@@ -5,6 +5,6 @@ class Student < User
   end
 
   def learn
-    @knowledge << Teacher.KNOWLEDGE.sample
+    @knowledge << Teacher.teach
   end
 end
