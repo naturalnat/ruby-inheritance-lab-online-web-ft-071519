@@ -4,4 +4,7 @@ class Student < User
     @knowledge = []
   end
 
+  def learn
+    @knowledge << Teacher.KNOWLEDGE.sample 
+  end
 end
